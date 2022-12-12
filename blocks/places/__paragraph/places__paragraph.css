@@ -1,0 +1,11 @@
+.places__paragraph {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    Font-size: 18px;
+    Line-height: 29px;
+    Line-height: 163%;
+    color: white;
+    margin: 0 auto 27px 0;
+    padding: 0;
+}
