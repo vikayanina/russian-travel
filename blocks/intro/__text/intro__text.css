@@ -1,11 +1,34 @@
 .intro__text {
-    color: white;
-    margin: 40px auto 33px 0;
-    padding: 0;
-    max-width: 690px;
-    Font-family: 'Inter';
-    Font-style: normal;
-    font-weight: 400;
-    Font-size: 16px;
-    Line-height: 26px;
+   color: white;
+   margin: 40px 0 33px 0;
+   padding: 0;
+   max-width: 690px;
+   Font-family: 'Inter';
+   Font-style: normal;
+   font-weight: 400;
+   Font-size: 16px;
+   Line-height: 26px;
+   Line-height: 163%;
+}
+
+@media (max-width: 1024px) {
+   .intro__text {
+       width: 74%;
+      max-width: 960px;
+   }
+   
+}
+@media (max-width: 768px) {
+   .intro__text {
+      width: 100%;
+      min-width: min-content;
+      max-width: 720px;
+   }
+   
+}
+@media (max-width: 320px) {
+   .intro__text {
+       width: 100%;
+   }
+   
 }

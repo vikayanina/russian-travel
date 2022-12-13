@@ -1,7 +1,21 @@
-.places {
-    max-width: 984px;
-    margin: 0 auto 80px auto;
+ .places {
     display: grid;
-    gap: 40px;
-    grid-template-columns: 1fr minmax(min-content, 484px);
+    grid-template-columns: 460px 1fr;
+    gap: 48px 40px;
+
+} 
+
+@media (max-width: 1024px) {
+  .places {
+    grid-template-columns: 340px 1fr;
+    gap: 48px 28px;
+  }
+  
 }
+@media (max-width: 768px) {
+  .places {
+    grid-template-columns: minmax(288px, 1fr);
+    gap: 32px;
+  }
+}
+

@@ -1,5 +1,0 @@
-.places__main-content {
-    display: grid;
-    grid-template-rows: minmax(min-content, 152px) 1fr;
-    gap: 40px;
-}

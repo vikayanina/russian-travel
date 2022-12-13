@@ -2,5 +2,17 @@
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     gap: 18px;
+    flex-direction: row;
+    list-style: none;
 }
+
+@media  screen and (max-width: 530px) {
+    .footer__links {
+        flex-direction: column;
+    }
+
+} 
+
+

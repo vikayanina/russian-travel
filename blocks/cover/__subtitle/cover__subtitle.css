@@ -12,3 +12,12 @@
     z-index: 2;
     color: white;
   }
+
+  @media  screen and (max-width: 530px) {
+    .cover__subtitle {
+      Font-size: 14px;
+      Line-height: 16px;
+      Line-height: 94%;
+    }
+} 
+

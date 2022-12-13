@@ -3,8 +3,31 @@
     flex-direction: column;
     align-items: center;
     max-width: 984px;
-    max-height: 1005px;
     margin: 56px auto 0 auto;
     justify-content: center;
 } 
 
+@media (max-width: 1024px) {
+    .lead {
+        max-width: 928px;
+        margin: 48px auto 0 auto;
+    }
+    
+ }
+ @media (max-width: 768px) {
+    .lead {
+        width: 100%;
+        max-width: 768px;
+        margin: 48px auto 0 auto;
+ 
+    }
+    
+ }
+ @media (max-width: 320px) {
+    .lead {
+        width: 100%;
+        max-width: 320px;
+        margin: 48px auto 0 auto;
+    }
+    
+ }

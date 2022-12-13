@@ -11,3 +11,13 @@
     margin: 0 auto 32px auto;
     z-index: 2;
   }
+
+ @media (max-width: 530px) {
+  .cover__title {
+  Font-size: 32px;
+  Line-height: 35px;
+  Line-height: 90%;
+  max-width: 228px;
+  }
+  
+}
