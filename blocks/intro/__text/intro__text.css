@@ -3,17 +3,17 @@
    margin: 40px 0 33px 0;
    padding: 0;
    max-width: 690px;
-   Font-family: 'Inter';
-   Font-style: normal;
+   font-family: 'Inter';
+   font-style: normal;
    font-weight: 400;
-   Font-size: 16px;
-   Line-height: 26px;
-   Line-height: 163%;
+   font-size: 16px;
+   line-height: 26px;
+   line-height: 163%;
 }
 
 @media (max-width: 1024px) {
    .intro__text {
-       width: 74%;
+      width: 74%;
       max-width: 960px;
    }
    

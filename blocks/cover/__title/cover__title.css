@@ -3,8 +3,8 @@
     font-family: 'Inter';
     font-weight: 900;
     font-style: normal;
-    Font-size: 72px;
-    Line-height: 87%;
+    font-size: 72px;
+    line-height: 87%;
     color: white;
     padding: 0;
     text-align: center;
@@ -14,9 +14,9 @@
 
  @media (max-width: 530px) {
   .cover__title {
-  Font-size: 32px;
-  Line-height: 35px;
-  Line-height: 90%;
+  font-size: 32px;
+  line-height: 35px;
+  line-height: 90%;
   max-width: 228px;
   }
   
