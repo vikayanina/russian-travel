@@ -36,7 +36,5 @@
     margin: 0 auto 64px auto;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 1fr);
-    margin: 0 auto 64px auto;
     }
-    
  }
