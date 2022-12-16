@@ -4,8 +4,7 @@
     font-style: normal;
     font-size: 54px;
     line-height: 58px;
-    line-height: 89%;
-    color: white;
+    color: #fff;
     margin: 0;
     padding: 0;
 }
@@ -16,17 +15,15 @@
     .intro__title {
         min-width: 288px;
         max-width: 720px;
-    
     }
     
  }
  @media (max-width: 320px) {
     .intro__title {
         width: 100%;
-        max-width: 288px;
+        max-width: 240px;
         font-size: 32px;
         line-height: 35px;
-        line-height: 90%;
     }
     
  }

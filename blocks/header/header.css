@@ -1,16 +1,29 @@
-.header{
-    width: 92.5%;
+.header {
+    width: calc((1184 / 1280) * 100%);
     max-width: 1184px;
     max-height: 52px;
     margin: 28px auto 0 auto;
     display: flex;
     align-items: flex-end;
+    flex-direction: row;
     justify-content: space-between;
 }
 
-
-@media screen and (max-width: 540px) {
+@media  screen and (max-width: 1024px) {
     .header {
+    width: calc((928 / 1024) * 100%);
+    }
+} 
+@media  screen and (max-width: 768px) {
+    .header {
+    width: calc((720 / 768) * 100%);
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    .header {
+        width: calc((288 / 320) * 100%);
+        max-width: 320px;
         margin: 16px auto 0 auto;
     }
 }

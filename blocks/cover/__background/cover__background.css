@@ -28,3 +28,10 @@
   .cover__background:hover::before {
     opacity: 0.8;
   }
+
+  @media screen and (max-width: 320px) {
+    .cover__background {
+    padding: calc((33/320)*100%) 0;
+    }
+    
+ }

@@ -1,6 +1,6 @@
 .intro__text {
-   color: white;
-   margin: 40px 0 33px 0;
+   color: #fff;
+   margin: 40px 0 34px 0;
    padding: 0;
    max-width: 690px;
    font-family: 'Inter';
@@ -8,7 +8,6 @@
    font-weight: 400;
    font-size: 16px;
    line-height: 26px;
-   line-height: 163%;
 }
 
 @media (max-width: 1024px) {
@@ -16,7 +15,6 @@
       width: 74%;
       max-width: 960px;
    }
-   
 }
 @media (max-width: 768px) {
    .intro__text {
@@ -24,11 +22,10 @@
       min-width: min-content;
       max-width: 720px;
    }
-   
 }
+
 @media (max-width: 320px) {
    .intro__text {
        width: 100%;
-   }
-   
+   } 
 }
