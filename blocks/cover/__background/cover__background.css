@@ -29,9 +29,13 @@
     opacity: 0.8;
   }
 
+  @media screen and (max-width: 768px) {
+    .cover__background {
+    padding: calc((115/768)*100%) 0;
+    }
+ }
   @media screen and (max-width: 320px) {
     .cover__background {
     padding: calc((33/320)*100%) 0;
     }
-    
  }

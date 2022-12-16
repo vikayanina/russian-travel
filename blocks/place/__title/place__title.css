@@ -7,13 +7,13 @@
     color: #fff;
     margin: 0;
     padding: 0;
-    border: 1px red solid;
 
 }
 
   
   @media screen and (max-width: 768px) {
     .place__title {
+        max-width: 330px;
         font-size: 42px;
         line-height: 46px;
     }

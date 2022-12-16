@@ -9,7 +9,6 @@
     padding: 0;
     z-index: 2;
     color: #fff;
-    border: 1px red solid;
   }
 
   @media  screen and (max-width: 530px) {

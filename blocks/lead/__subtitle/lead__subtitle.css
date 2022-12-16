@@ -11,18 +11,19 @@
     text-align: center;
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .lead__subtitle {
-    max-width: 288px;
-    font-size: 16px;
-    line-height: 20px;
-    margin: 32px auto 56px auto;
+       width: calc((640/768)*100%);
+       max-width: 640px;
+       font-size: 30px;
+       line-height: 36px;
+       margin: 32px auto 56px auto;
  }
 }
 
 @media screen and (max-width: 320px) {
     .lead__subtitle {
-    width: 100%;
+    width: calc((288/320)*100%);
     max-width: 288px;
     font-size: 16px;
     line-height: 20px;

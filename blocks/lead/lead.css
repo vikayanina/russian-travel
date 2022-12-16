@@ -8,7 +8,7 @@
     justify-content: center;
 } 
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .lead {
         width: calc((928 / 1024) * 100%);
         max-width: 928px;
@@ -16,20 +16,18 @@
     }
     
  }
- @media (max-width: 768px) {
+ @media screen and (max-width: 768px) {
     .lead {
         width: 100%;
         max-width: 768px;
         margin: 48px auto 0 auto;
- 
     }
     
  }
- @media (max-width: 320px) {
+ @media screen and (max-width: 320px) {
     .lead {
         width: 100%;
         max-width: 320px;
         margin: 48px auto 0 auto;
     }
-    
  }

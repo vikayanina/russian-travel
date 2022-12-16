@@ -11,12 +11,24 @@
     grid-template-columns: 340px 1fr;
     gap: 48px 28px;
   }
-  
 }
+
 @media screen and (max-width: 768px) {
+  .place {
+    grid-template-columns: 340px 1fr;
+    row-gap: 48px;
+    column-gap: 28px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 668px) {
   .place {
     grid-template-columns: minmax(288px, 1fr);
     row-gap: 32px;
   }
-}
+} 
+
+
 
