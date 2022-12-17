@@ -1,23 +1,22 @@
 .cover {
-    margin: 0 auto;
-    width: calc((1184/1280)*100%);
-    max-width: 1184px;
+  margin: 0 auto;
+  width: calc((1184 / 1280) * 100%);
+  max-width: 1184px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+    max-width: 1024px;
   }
-
-  @media screen and (max-width: 1024px) {
-    .cover {
-      width: 100%;
-      max-width: 1024px;
-
-    }
- }
- @media screen and (max-width: 768px) {
-    .cover {
-      max-width: 768px;
-    }
- }
- @media screen and (max-width: 320px) {
-    .cover {
+}
+@media screen and (max-width: 768px) {
+  .cover {
+    max-width: 768px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cover {
     max-width: 320px;
-    }
- }
+  }
+}

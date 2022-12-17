@@ -1,5 +1,5 @@
 .lead__subtitle {
-    font-family: 'Inter', 'Arial', sans-serif;
+    font-family: "Inter", "Arial", sans-serif;
     padding: 0;
     margin: 32px auto 64px auto;
     font-size: 30px;
@@ -15,20 +15,20 @@
     .lead__subtitle {
         margin: 32px auto 56px auto;
     }
- }
+}
 
 @media screen and (max-width: 768px) {
     .lead__subtitle {
-       width: calc((640/768)*100%);
- }
+        width: calc((640 / 768) * 100%);
+    }
 }
 
 @media screen and (max-width: 320px) {
     .lead__subtitle {
-    width: calc((288/320)*100%);
-    max-width: 288px;
-    font-size: 16px;
-    line-height: 20px;
-    margin: 16px auto 40px auto;
+        width: calc((288 / 320) * 100%);
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 16px auto 40px auto;
     }
 }

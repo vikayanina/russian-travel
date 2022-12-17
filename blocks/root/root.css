@@ -1,9 +1,9 @@
 .root {
-    background-color: #2A2C2F;
+    background-color: #2a2c2f;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: 'Inter', 'Arial', sans-serif;
+    font-family: "Inter", "Arial", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

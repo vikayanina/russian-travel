@@ -6,34 +6,32 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-} 
+}
 @media screen and (max-width: 1024px) {
     .footer {
-    width: calc((928/1024)*100%);
+        width: calc((928 / 1024) * 100%);
     }
-} 
+}
 @media screen and (max-width: 768px) {
     .footer {
-    width: calc((720/768)*100%);
-    margin: 88px auto 24px auto;
+        width: calc((720 / 768) * 100%);
+        margin: 88px auto 24px auto;
     }
-} 
+}
 
 @media screen and (max-width: 680px) {
     .footer {
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 48px;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 48px;
     }
-} 
+}
 
 @media screen and (max-width: 320px) {
     .footer {
-        width: calc((288/320)*100%);
+        width: calc((288 / 320) * 100%);
         max-width: 288px;
         margin: 64px auto 24px auto;
         align-items: flex-start;
     }
 }
-
-
