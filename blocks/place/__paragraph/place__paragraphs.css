@@ -4,20 +4,26 @@
     flex-direction: column;
     margin: 0;
     padding: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
-
+@media screen and (max-width: 1024px) {
+  .place__paragraphs {
+    max-width: 456px;
+    row-gap: 26px;
+  }
+}
   @media screen and (max-width: 768px) {
     .place__paragraphs {
       max-width: 352px;
       row-gap: 25px;
-      justify-content: flex-start;
-      align-items: flex-start;
     }
   }
   
   @media screen and (max-width: 320px) {
     .place__paragraphs {
+      width: calc((288/320)*100%);
       max-width: 288px;
       margin: 0 16px;
     }

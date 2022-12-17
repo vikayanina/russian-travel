@@ -4,12 +4,18 @@
     font-size: 30px;
     line-height: 36px;
     color: #fff;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     max-width: 640px;
     text-align: center;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead__subtitle {
+        margin: 32px auto 56px auto;
+        max-width: 640px;
+    }
+ }
 
 @media screen and (max-width: 768px) {
     .lead__subtitle {
